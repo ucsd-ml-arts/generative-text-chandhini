@@ -1,12 +1,12 @@
 # Project 1 Generative Text
 
-Your Name, yourcontact@ucsd.edu
+Chandhini Grandhi, cgrandhi@ucsd.edu
 
-(Your teammate's contact info, if appropriate)
 
 ## Abstract
 
-Include your abstract here. This should be one paragraph clearly describing your concept, method, and results. This should tell us what architecture/approach you used. Also describe your creative goals, and whether you were successful in achieving them. Also could describe future directions.
+The project I will be working on is  to generate TV scripts for the popular 90s sitcom - FRIENDS. I am a huge fan of the TV series and have watched all 10 seasons multiple times. In this project, I am going to build a 2 layer RNN which can be trained to generate a new script for the series (Hopefully, it will be released as Season 11). The dataset I am going to use is 100,000 line FRIENDS Transcript obtained from https://fangj.github.io/friends/ . The data has to be processed and  tokenized to be represented as a bag of words. The processed data will then be fed to a 2-layer neural network implemented in Pytorch. I plan to experiment with it by changing the number of training epochs, Embedding dimensions and Batch size. 
+
 
 ## Model/Data
 
