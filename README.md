@@ -10,9 +10,10 @@ The project I will be working on is  to generate TV scripts for the popular 90s 
 
 ## Model/Data
 
-Briefly describe the files that are included with your repository:
-- trained models
-- training data (or link to training data). what is your corpus?
+The files included in this repository are
+- Dataset - ./data/friends.txt
+- Preprocess data - ./preprocess.p
+- trained data - ./trained_rnn.pt
 
 ## Code
 
@@ -22,18 +23,27 @@ Your code for generating your project:
 
 ## Results
 
-- Documentation of your generative text in an effective form. A file with your generated text (.pdf, .doc, .txt). 
+The results are present in the results folder. Below are the statistics for each result
+|  generated_script_1.txt |  generated_script_2.txt |  generated_script_3.txt  |  generated_script_4.txt |   |
+|-------------------------|-------------------------|--------------------------|-------------------------|---|
+|  Dataset:10,000         | Dataset:30,000          | Dataset: 30,000          | Dataset: 30,00          |   |
+|   Epochs: 10            | Epochs:10               | Epochs: 20               | Epochs: 20              |
+|  Batch size:128         | Batch size: 128         | Batch size:128           | Batch size: 64          |
+|  Loss:                  | Loss: 3.23              | Loss: 2.744              | Loss: 2.664             |   |
+
 
 ## Technical Notes
 
-Any implementation details or notes we need to repeat your work. 
-- Does this code require other pip packages, software, etc?
-- Does it run on some other (non-datahub) platform? (CoLab, etc.)
+The code requires the following versions of packages installed on the Datahub
+1. torch : 1.2.0
+2. numpy : 1.16.4
+
 
 ## Reference
 
 References to any papers, techniques, repositories you used:
-- Papers
-  - [This is a paper](this_is_the_link.pdf)
-- Repositories
 - Blog posts
+  -[Building RNN with Pytorch](https://blog.floydhub.com/a-beginners-guide-on-recurrent-neural-networks-with-pytorch/)
+  -[Understanding LSTM](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+  -[Understanding RNN](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
+  -[NLP with Pytorch](https://pytorch.org/tutorials/intermediate/char_rnn_classification_tutorial.html)
