@@ -7,7 +7,7 @@ Chandhini Grandhi, cgrandhi@ucsd.edu
 
 Are you one of those people who felt sad when the popular 90s sitcom - FRIENDS ended? Machine Learning to the rescue! In this project, I will be generating a fake script for the popular TV series. 
 
-![Alt Text](https://in.pinterest.com/pin/462815299207862711/?nic=1)
+![Alt Text](https://github.com/ucsd-ml-arts/generative-text-chandhini/blob/master/Friends.gif)
 
 The dataset that will be used in this project is 10 seasons of Friends episodes obtained from https://fangj.github.io/friends/ .The project builds a 2 layer RNN based on LSTM. The data is processed and  tokenized to be represented as a bag of words. The processed data will then be fed to a 2-layer neural network implemented in Pytorch. I plan to experiment with it by changing the number of training epochs, Embedding dimensions and Batch size. Once the hyperparameters are finalized, the project will generate 100 scenes with each character as key word, which will be combined and cleaned to generate one episode. 
 
