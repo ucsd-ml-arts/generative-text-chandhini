@@ -14,22 +14,53 @@ The files included in this repository are
 - Dataset - ./data/friends.txt
 - Preprocess data - ./preprocess.p
 - trained data - ./trained_rnn.pt
+- Intermediate Outputs - ./Output
+- Final episode - The Fake Script.txt
 
 ## Code
 
 Your code for generating your project:
-- training_code.py or training_code.ipynb - your training code
-- generative_code.py or generative_code.ipynb - your generation code
+- Generative-text-TVscript.ipynb - your generation code
 
 ## Results
 
-The results are present in the results folder. Below are the statistics for each result
-|  generated_script_1.txt |  generated_script_2.txt |  generated_script_3.txt  |  generated_script_4.txt |   |
-|-------------------------|-------------------------|--------------------------|-------------------------|---|
-|  Dataset:10,000         | Dataset:30,000          | Dataset: 30,000          | Dataset: 30,00          |   |
-|   Epochs: 10            | Epochs:10               | Epochs: 20               | Epochs: 20              |
-|  Batch size:128         | Batch size: 128         | Batch size:128           | Batch size: 64          |
-|  Loss:                  | Loss: 3.23              | Loss: 2.744              | Loss: 2.664             |   |
+The results are present in the Generated test folder. Below are the statistics for each result which was obtained by modifying the hyper parameters
+
+> generated_script_1.txt
+>> Dataset:10,000 
+>> Epochs: 10 
+>> Batch size:128 
+>> Loss: 3.98
+
+> generated_script_2.txt
+>> Dataset:30,000 
+>> Epochs: 10 
+>> Batch size:128 
+>> Loss: 3.23
+
+> generated_script_3.txt
+>> Dataset:30,000 
+>> Epochs: 20 
+>> Batch size:128 
+>> Loss: 2.74
+
+> generated_script_4.txt
+>> Dataset:30,000 
+>> Epochs: 10 
+>> Batch size:64 
+>> Loss: 2.664
+
+> generated_script_5.txt
+>> Dataset:100,000 
+>> Epochs: 20 
+>> Batch size:128 
+>> Loss: 3.161
+
+> generated_script_6.txt:
+>> Datatset : 100,000
+>> Epochs : 20
+>> Batch size: 64
+>> Loss: 3.397
 
 
 ## Technical Notes
