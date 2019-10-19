@@ -19,35 +19,35 @@ The files included in this repository are
 
 ## Code
 
-Your code for generating your project:
-- Generative-text-TVscript.ipynb - your generation code
+The code for generating this project is present in  :
+- Generative-text-TVscript.ipynb 
 
 ## Results
 
 The results are present in the Generated test folder. Below are the statistics for each result which was obtained by modifying the hyper parameters
 
 > generated_script_1.txt
->> Dataset:10,000 
->> Epochs: 10 
->> Batch size:128 
+>> Dataset:10,000,
+>> Epochs: 10, 
+>> Batch size:128,
 >> Loss: 3.98
 
 > generated_script_2.txt
->> Dataset:30,000 
->> Epochs: 10 
->> Batch size:128 
+>> Dataset:30,000,
+>> Epochs: 10,
+>> Batch size:128,
 >> Loss: 3.23
 
 > generated_script_3.txt
->> Dataset:30,000 
->> Epochs: 20 
->> Batch size:128 
+>> Dataset:30,000,
+>> Epochs: 20,
+>> Batch size:128, 
 >> Loss: 2.74
 
 > generated_script_4.txt
->> Dataset:30,000 
->> Epochs: 10 
->> Batch size:64 
+>> Dataset:30,000,
+>> Epochs: 10,
+>> Batch size:64, 
 >> Loss: 2.664
 
 > generated_script_5.txt
@@ -57,9 +57,9 @@ The results are present in the Generated test folder. Below are the statistics f
 >> Loss: 3.161
 
 > generated_script_6.txt:
->> Datatset : 100,000
->> Epochs : 20
->> Batch size: 64
+>> Datatset : 100,000,
+>> Epochs : 20,
+>> Batch size: 64,
 >> Loss: 3.397
 
 
@@ -73,8 +73,8 @@ The code requires the following versions of packages installed on the Datahub
 ## Reference
 
 References to any papers, techniques, repositories you used:
-- Blog posts
-  -[Building RNN with Pytorch](https://blog.floydhub.com/a-beginners-guide-on-recurrent-neural-networks-with-pytorch/)
-  -[Understanding LSTM](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
-  -[Understanding RNN](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
-  -[NLP with Pytorch](https://pytorch.org/tutorials/intermediate/char_rnn_classification_tutorial.html)
+- Blog posts<br />
+  -[Building RNN with Pytorch](https://blog.floydhub.com/a-beginners-guide-on-recurrent-neural-networks-with-pytorch/)<br />
+  -[Understanding LSTM](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)<br />
+  -[Understanding RNN](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)<br />
+  -[NLP with Pytorch](https://pytorch.org/tutorials/intermediate/char_rnn_classification_tutorial.html)<br />
