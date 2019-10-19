@@ -5,7 +5,11 @@ Chandhini Grandhi, cgrandhi@ucsd.edu
 
 ## Abstract
 
-The project I will be working on is  to generate TV scripts for the popular 90s sitcom - FRIENDS. I am a huge fan of the TV series and have watched all 10 seasons multiple times. In this project, I am going to build a 2 layer RNN which can be trained to generate a new script for the series (Hopefully, it will be released as Season 11). The dataset I am going to use is 100,000 line FRIENDS Transcript obtained from https://fangj.github.io/friends/ . The data has to be processed and  tokenized to be represented as a bag of words. The processed data will then be fed to a 2-layer neural network implemented in Pytorch. I plan to experiment with it by changing the number of training epochs, Embedding dimensions and Batch size. 
+Are you one of those people who felt sad when the popular 90s sitcom - FRIENDS ended? Machine Learning to the rescue! In this project, I will be generating a fake script for the popular TV series. 
+
+![Alt Text](https://in.pinterest.com/pin/462815299207862711/?nic=1)
+
+The dataset that will be used in this project is 10 seasons of Friends episodes obtained from https://fangj.github.io/friends/ .The project builds a 2 layer RNN based on LSTM. The data is processed and  tokenized to be represented as a bag of words. The processed data will then be fed to a 2-layer neural network implemented in Pytorch. I plan to experiment with it by changing the number of training epochs, Embedding dimensions and Batch size. Once the hyperparameters are finalized, the project will generate 100 scenes with each character as key word, which will be combined and cleaned to generate one episode. 
 
 
 ## Model/Data
